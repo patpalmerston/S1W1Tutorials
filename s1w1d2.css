@@ -1,0 +1,16 @@
+body {
+  max-width: 100%;
+  width: 600px;
+  margin: auto;
+  border: 1px solid red;
+}
+
+.box-example {
+  background: gray;
+  width: 100px;
+  height: 100px;
+  box-sizing: border-box;
+  padding: 20px;
+  border: 1px solid black;
+  margin: 20px;
+}
