@@ -1,0 +1,36 @@
+.container {
+  max-width: 100%;
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  background: lightblue;
+}
+
+.container header {
+  font-family: 'Helvetica', Arial, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container header .main-header {
+  font-size: 24;
+  color: crimson;
+}
+
+.nav-item {
+  padding: 5px 20px;
+  background: lightgray;
+  border: 1px solid gray;
+  margin: 10px 10px;
+  border-radius: 5px;
+  display: inline-block;
+  color: black;
+}
+
+
+#apply {
+  background: white;
+  color: orange;
+}
