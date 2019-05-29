@@ -5,6 +5,14 @@ body {
   border: 1px solid red;
 }
 
+header h1 {
+  display: inline-block;
+}
+
+header nav {
+  display: inline-block;
+}
+
 .box-example {
   background: gray;
   width: 100px;
