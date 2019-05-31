@@ -1,0 +1,329 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+.menu-header {
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	z-index: 1;
+}
+
+.main-nav-list {
+	margin: 0px;
+	padding: 0px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	list-style-type: none;
+}
+
+.menu {
+	padding: 30px;
+	font-size: 20px;
+	color: darkgray;
+	text-decoration: none;
+	display: flex;
+	align-items: flex-start;
+}
+
+.menu:hover {
+	color: black;
+}
+
+.logo {
+	align-self: center;
+}
+
+.home {
+	margin: 20px;
+}
+
+hr {
+	margin: 0px 80px 0px 90px;
+}
+
+.h1-splash {
+	display: flex;
+	justify-content: space-evenly;
+	font-size: 70px;
+	align-items: center;
+	margin: 50px;
+}
+
+.main-heading {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.h1-main {
+	width: 270px;
+	height: 210px;
+	text-align: center;
+}
+
+.h1-services {
+	font-size: 20px;
+}
+
+.h1-vision {
+	font-size: 20px;
+}
+
+.top-content {
+	display: flex;
+	width: 100%;
+	justify-content: space-evenly;
+	margin: 30px 20px;
+}
+
+.features {
+	width: 40%;
+}
+
+.about {
+	width: 40%;
+}
+
+.middle-img {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+}
+
+.services-header-img {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+}
+
+.bottom-content {
+	display: flex;
+	width: 100%;
+	justify-content: space-evenly;
+	margin: 30px 20px;
+}
+
+.services {
+	width: 25%;
+}
+
+.product {
+	width: 25%;
+}
+
+.vision {
+	width: 25%;
+}
+
+.contact {
+	margin: 20px;
+}
+
+footer {
+	text-align: center;
+}
+
+.services-header {
+	margin: 25px 50px 25px 90px;
+}
+
+.services-blocks {
+	display: flex;
+	width: 90%;
+	margin: 25px auto;
+	flex-flow: wrap;
+	justify-content: space-around;
+}
+
+.digital-design {
+	width: 400px;
+	height: 220px;
+	border: 1px solid black;
+	font-size: 18px;
+	margin: 20px auto;
+	background-color: lightgrey;
+}
+
+.ux-ui {
+	width: 400px;
+	height: 220px;
+	border: 1px solid black;
+	font-size: 18px;
+	margin: 20px auto;
+	background-color: lightgrey;
+}
+
+.digital-marketing {
+	width: 400px;
+	height: 220px;
+	font-size: 18px;
+	border: 1px solid black;
+	margin: 20px auto;
+	background-color: lightgrey;
+}
+
+.web-development {
+	width: 400px;
+	height: 220px;
+	font-size: 18px;
+	border: 1px solid black;
+	margin: 20px auto;
+	background-color: lightgrey;
+}
+
+.ios-development {
+	width: 400px;
+	height: 220px;
+	font-size: 18px;
+	border: 1px solid black;
+	margin: 20px auto;
+	background-color: lightgrey;
+}
+
+.android-development {
+	width: 400px;
+	height: 220px;
+	font-size: 18px;
+	border: 1px solid black;
+	margin: 20px auto;
+	background-color: lightgrey;
+}
+
+.services-blocks h2 {
+	margin: 10px;
+}
+
+.services-blocks p {
+	margin: 10px 10px 0px 10px;
+}
+
+.services-blocks button {
+	margin: 0px 10px 10px 10px;
+}
+
+.some-facts-container {
+	display: flex;
+	width: 90%;
+	justify-content: space-around;
+	margin: 30px 0px 70px 70px;
+}
+
+.some-facts {
+	width: 400px;
+	font-size: 18px;
+}
+
+.some-facts-ul {
+	margin: 15px 15px;
+	list-style-type: disc;
+}
+
+
+
+.content-block {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 50px;
+	margin: 50px;
+}
+
+.content-header {
+	align-items: center;
+}
+
+.content-header h2 {
+	text-align: center;
+}
+
+.design-img {
+	align-self: flex-end;
+}
+
+.development-img {
+	align-self: flex-start;
+}
+
+.creativity-img {
+	align-self: flex-end;
+}
+
+.strategy-img {
+	align-self: flex-start;
+}
+
+.laptop-img {
+	width: 40%;
+	height: 40%;
+}
+
+
+
+
