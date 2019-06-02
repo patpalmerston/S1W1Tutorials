@@ -71,6 +71,22 @@ p {
     margin: 0 auto;
 }
 
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin: 10px auto; 
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.jumbo {
+  margin: 10px auto;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -104,12 +120,52 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.box1 {
+  background: teal;
+}
+
+.box2 {
+  background: gold;
+}
+
+.box3 {
+  background: cadetblue;
+}
+
+.box4 {
+  background: coral;
+}
+
+.box5 {
+  background: crimson;
+}
+
+.box6 {
+  background: forestgreen;
+}
+
+.box7 {
+  background: darkorchid;
+}
+
+.box8 {
+  background: hotpink;
+}
+
+.box9 {
+  background: indigo;
+}
+
+.box10 {
+  background: dodgerblue;
 }
 
 .bottom-content {
@@ -124,6 +180,48 @@ p {
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
+}
+
+.about-upper-info {
+  width: 90%;
+  margin: 20px auto;
+}
+
+.about-upper-border {
+  margin: 10px auto;
+  border-bottom: 1px dashed black;
+}
+
+.about-content-section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.about-content {
+  width: 47%;
+  margin: 40px 10px 10px 10px;
+  border-bottom: 1px dashed black;
+  
+}
+
+.about-content img {
+  margin-bottom: 10px;
+}
+
+.about-content p {
+  margin-bottom: 10px;
+}
+
+.about-content button {
+  border: 1px solid black;
+  border-radius: 6%;
+  margin-bottom: 20px;
+}
+
+about-lower-content {
+  margin-top: 20px;
 }
 
 footer {
