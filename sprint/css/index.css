@@ -215,9 +215,13 @@ a {
 }
 
 .about-content button {
-  border: 1px solid black;
-  border-radius: 6%;
+  border: 1.5px solid black;
+  border-radius: 15%;
   margin-bottom: 20px;
+  background: white;
+  font-size: 10px;
+  height: 30px;
+  width: 80px;
 }
 
 about-lower-content {
